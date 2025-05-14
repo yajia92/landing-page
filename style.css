@@ -80,6 +80,11 @@ body {
   cursor: pointer;
 }
 
+.hero-text button:hover {
+  font-weight: bold;
+  
+}
+
 .hero-image {
   background-color: #6b7280;
   width: 500px;
@@ -171,7 +176,16 @@ body {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+
+
 }
+
+.cta-box button:hover {
+  background-color:  #fff;
+  color: #3882f6;
+  font-weight: bold;
+}
+
 
 
 /* Footer */
