@@ -30,9 +30,12 @@ body {
   align-items: center;
 }
 
+
 .logo {
-  font-size: 24px;
+  font-family: 'Kunstler Script', Courier, monospace;
+  font-size: 44px;
   font-weight: bold;
+  color: rgb(240, 10, 10)
 }
 
 .nav-links a {
@@ -117,6 +120,7 @@ body {
 .box {
   max-width: 150px;
   text-align: center;
+  
 }
 
 .img-placeholder {
@@ -126,6 +130,14 @@ body {
   height: 150px;
   margin-bottom: 10px;
 }
+
+.img-placeholder img {
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 5/5;
+  border-radius: 5%;
+}
+
 
 .quote {
   background-color: #e5e7eb;
